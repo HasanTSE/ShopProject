@@ -110,9 +110,7 @@ namespace ShopProject.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-
-
+   
         public IActionResult Edit(Order orderObj)
         {
             if (orderObj == null)

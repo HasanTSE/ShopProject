@@ -176,9 +176,9 @@
 
         
         
-        $('#OrderNumber').change(function () {
-            updateCalculation();
-        });
+        //$('#OrderNumber').change(function () {
+        //    updateCalculation();
+        //});
 
 
 
@@ -258,7 +258,7 @@
                 data: {
                     itemId: itemId
                 },
-                success: function (data) {
+               success: function (data) {
                     if (data != null && data != '') {
                         $('#Rate').val(data.sellPrice);
                     }
